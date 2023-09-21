@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202A8E3A2AA39BB0000BBB99 /* RobotoSlab-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 202A8E392AA39BB0000BBB99 /* RobotoSlab-Black.ttf */; };
 		204EE5E22AA389C000E9DE1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EE5E12AA389C000E9DE1C /* AppDelegate.swift */; };
 		204EE5E42AA389C000E9DE1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EE5E32AA389C000E9DE1C /* SceneDelegate.swift */; };
 		204EE5E62AA389C000E9DE1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EE5E52AA389C000E9DE1C /* ViewController.swift */; };
 		204EE5E92AA389C000E9DE1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204EE5E72AA389C000E9DE1C /* Main.storyboard */; };
 		204EE5EB2AA389C100E9DE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204EE5EA2AA389C100E9DE1C /* Assets.xcassets */; };
 		204EE5EE2AA389C100E9DE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204EE5EC2AA389C100E9DE1C /* LaunchScreen.storyboard */; };
+		204EE5F62AA389E000E9DE1C /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EE5F52AA389E000E9DE1C /* NewsModel.swift */; };
+		204EE60A2AA3979100E9DE1C /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EE6092AA3979100E9DE1C /* MyTableViewCell.swift */; };
+		20A6E2DD2AA4C0BA0011E617 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6E2DC2AA4C0BA0011E617 /* DetailViewController.swift */; };
+		20A6E3312ABAFB9F0011E617 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6E3302ABAFB9F0011E617 /* LoginViewController.swift */; };
+		20A6E3332ABB0E7F0011E617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20A6E3322ABB0E7F0011E617 /* GoogleService-Info.plist */; };
+		6801B3719DFE2608F303B7E0 /* Pods_Quantum_IT_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB26A393B4B1B4CFE750D587 /* Pods_Quantum_IT_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202A8E392AA39BB0000BBB99 /* RobotoSlab-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Black.ttf"; path = "../../../../Users/sneh/Desktop/Quantum IT Project/Quantum IT Project/Fonts/RobotoSlab-Black.ttf"; sourceTree = DEVELOPER_DIR; };
 		204EE5DE2AA389C000E9DE1C /* Quantum IT Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum IT Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204EE5E12AA389C000E9DE1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		204EE5E32AA389C000E9DE1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		204EE5EA2AA389C100E9DE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204EE5ED2AA389C100E9DE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204EE5EF2AA389C100E9DE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204EE5F52AA389E000E9DE1C /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		204EE6092AA3979100E9DE1C /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		20A6E2DC2AA4C0BA0011E617 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		20A6E3302ABAFB9F0011E617 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20A6E3322ABB0E7F0011E617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB26A393B4B1B4CFE750D587 /* Pods_Quantum_IT_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quantum_IT_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE2854B14EF9B6E46B16B15 /* Pods-Quantum IT Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum IT Project.debug.xcconfig"; path = "Target Support Files/Pods-Quantum IT Project/Pods-Quantum IT Project.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D4D2E7481B4DC3C92781C1 /* Pods-Quantum IT Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum IT Project.release.xcconfig"; path = "Target Support Files/Pods-Quantum IT Project/Pods-Quantum IT Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6801B3719DFE2608F303B7E0 /* Pods_Quantum_IT_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202A8E3B2AA39BB6000BBB99 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				202A8E392AA39BB0000BBB99 /* RobotoSlab-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		204EE5D52AA389C000E9DE1C = {
 			isa = PBXGroup;
 			children = (
 				204EE5E02AA389C000E9DE1C /* Quantum IT Project */,
 				204EE5DF2AA389C000E9DE1C /* Products */,
+				3EC2F075950BD71D53E57296 /* Pods */,
+				C7EE5104A74D0F0978C0DB4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +86,35 @@
 				204EE5E12AA389C000E9DE1C /* AppDelegate.swift */,
 				204EE5E32AA389C000E9DE1C /* SceneDelegate.swift */,
 				204EE5E52AA389C000E9DE1C /* ViewController.swift */,
+				20A6E3302ABAFB9F0011E617 /* LoginViewController.swift */,
+				20A6E2DC2AA4C0BA0011E617 /* DetailViewController.swift */,
+				204EE6092AA3979100E9DE1C /* MyTableViewCell.swift */,
+				204EE5F52AA389E000E9DE1C /* NewsModel.swift */,
 				204EE5E72AA389C000E9DE1C /* Main.storyboard */,
+				202A8E3B2AA39BB6000BBB99 /* Fonts */,
 				204EE5EA2AA389C100E9DE1C /* Assets.xcassets */,
 				204EE5EC2AA389C100E9DE1C /* LaunchScreen.storyboard */,
 				204EE5EF2AA389C100E9DE1C /* Info.plist */,
+				20A6E3322ABB0E7F0011E617 /* GoogleService-Info.plist */,
 			);
 			path = "Quantum IT Project";
+			sourceTree = "<group>";
+		};
+		3EC2F075950BD71D53E57296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE2854B14EF9B6E46B16B15 /* Pods-Quantum IT Project.debug.xcconfig */,
+				F2D4D2E7481B4DC3C92781C1 /* Pods-Quantum IT Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7EE5104A74D0F0978C0DB4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB26A393B4B1B4CFE750D587 /* Pods_Quantum_IT_Project.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204EE5F22AA389C100E9DE1C /* Build configuration list for PBXNativeTarget "Quantum IT Project" */;
 			buildPhases = (
+				C3F8BA6478D2F75324712D8D /* [CP] Check Pods Manifest.lock */,
 				204EE5DA2AA389C000E9DE1C /* Sources */,
 				204EE5DB2AA389C000E9DE1C /* Frameworks */,
 				204EE5DC2AA389C000E9DE1C /* Resources */,
+				2D9F4C8A7AD95899F0BCCFF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				204EE5EE2AA389C100E9DE1C /* LaunchScreen.storyboard in Resources */,
+				202A8E3A2AA39BB0000BBB99 /* RobotoSlab-Black.ttf in Resources */,
+				20A6E3332ABB0E7F0011E617 /* GoogleService-Info.plist in Resources */,
 				204EE5EB2AA389C100E9DE1C /* Assets.xcassets in Resources */,
 				204EE5E92AA389C000E9DE1C /* Main.storyboard in Resources */,
 			);
@@ -133,13 +187,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D9F4C8A7AD95899F0BCCFF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quantum IT Project/Pods-Quantum IT Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quantum IT Project/Pods-Quantum IT Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quantum IT Project/Pods-Quantum IT Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F8BA6478D2F75324712D8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quantum IT Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		204EE5DA2AA389C000E9DE1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A6E3312ABAFB9F0011E617 /* LoginViewController.swift in Sources */,
+				204EE5F62AA389E000E9DE1C /* NewsModel.swift in Sources */,
 				204EE5E62AA389C000E9DE1C /* ViewController.swift in Sources */,
 				204EE5E22AA389C000E9DE1C /* AppDelegate.swift in Sources */,
+				20A6E2DD2AA4C0BA0011E617 /* DetailViewController.swift in Sources */,
+				204EE60A2AA3979100E9DE1C /* MyTableViewCell.swift in Sources */,
 				204EE5E42AA389C000E9DE1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +382,13 @@
 		};
 		204EE5F32AA389C100E9DE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE2854B14EF9B6E46B16B15 /* Pods-Quantum IT Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVX54XCJ2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Quantum IT Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +411,13 @@
 		};
 		204EE5F42AA389C100E9DE1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D4D2E7481B4DC3C92781C1 /* Pods-Quantum IT Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVX54XCJ2D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Quantum IT Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
